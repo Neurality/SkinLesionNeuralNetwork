@@ -104,14 +104,8 @@ def data():
 
 def model(trainX, trainY, valX, valY):
     '''
-    Model providing function:
-
-    Create Keras model with double curly brackets dropped-in as needed.
-    Return value has to be a valid python dictionary with two customary keys:
-        - loss: Specify a numeric evaluation metric to be minimized
-        - status: Just use STATUS_OK 
-    The last one is optional, though recommended, namely:
-        - model: specify the model just created so that we can later use it again.
+    Model providing function
+    
     '''
 
     model_callbacks = []
